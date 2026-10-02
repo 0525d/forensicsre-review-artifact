@@ -1,0 +1,9 @@
+# Copy to a private runtime configuration and fill in deployment-specific values.
+# Do not commit real API keys.
+MODEL: "your-model-name"
+API_KEY: "${SRE_AGENT_API_KEY}"
+API_BASE: "https://your-openai-compatible-endpoint/v1"
+TEMPERATURE: 0
+REQUEST_TIMEOUT: 120
+MAX_ATTEMPTS: 3
+

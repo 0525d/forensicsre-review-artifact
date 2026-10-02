@@ -1,0 +1,8 @@
+instruction,prediction,groundtruth,passed,failed,score,row_id,task_index,runtime_status,protocol_status,finalization_status,prediction_valid,evaluation_status
+"During the specified time range of March 6, 2021, from 15:00 to 15:30, there was one recorded failure in the system. The exact root cause component, the occurrence time of the root cause, and the reason behind this failure are currently unknown. Please identify the root cause component, determine the root cause occurrence datetime, and establish the root cause reason.","{""1"": {""root cause occurrence datetime"": ""2021-03-06 15:19:00"", ""root cause component"": ""IG02"", ""root cause reason"": ""high disk space usage""}}","level: pod
+component: IG02
+timestamp: 1615015140.0
+datetime: 2021-03-06 15:19:00
+reason: high disk space usage","IG02
+high disk space usage
+2021-03-06 15:19:00",,1.0,54.0,task_7,OK,COMPLETED,COMPLETED,True,EVALUATED

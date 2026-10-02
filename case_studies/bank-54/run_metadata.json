@@ -1,0 +1,29 @@
+{
+  "case_id": 54,
+  "sample_id": 0,
+  "dataset": "Bank",
+  "run_tag": "bank-54",
+  "model": "deepseek-v4-flash-0731",
+  "uid": "2026-09-26_22-25-03",
+  "task_index": "task_7",
+  "timeout_seconds": 3600,
+  "controller_max_step": 25,
+  "controller_max_turn": 5,
+  "max_transport_failure_groups": 10,
+  "max_consecutive_transport_failures": 4,
+  "evaluation_disabled": false,
+  "opportunity_mode": "SHADOW",
+  "analysis_handoff_mode": "OFF",
+  "runtime_status": "OK",
+  "protocol_status": "COMPLETED",
+  "finalization_status": "COMPLETED",
+  "prediction_valid": true,
+  "evaluation_status": "EVALUATED",
+  "status": "OK",
+  "artifacts": {
+    "prompt": "prompt/2026-09-26_22-25-03_#54-0.json",
+    "trajectory": "trajectory/2026-09-26_22-25-03_#54-0.ipynb",
+    "history": "history/2026-09-26_22-25-03_#54-0.log",
+    "result": "result.csv"
+  }
+}
